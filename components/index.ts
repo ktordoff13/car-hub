@@ -7,6 +7,7 @@ import { Footer } from "./Footer";
 import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
+import ShowMore from "./ShowMore";
 export {
   CarDetails,
   Hero,
@@ -17,4 +18,5 @@ export {
   SearchBar,
   CustomFilter,
   CarCard,
+  ShowMore,
 };
