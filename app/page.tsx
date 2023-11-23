@@ -11,6 +11,7 @@ export default async function Home({ searchParams }) {
     fuel: searchParams.fuel || 10,
     limit: searchParams.limit || "",
   });
+
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
   return (
     <main className="overflow-hidden">
